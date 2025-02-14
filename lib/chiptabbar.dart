@@ -12,11 +12,11 @@ class ChipTabBar extends StatelessWidget {
       appBar: AppBar(
         title: Text(
           'വിവർത്തകർ',
-           style: GoogleFonts.anekMalayalam(
-                    fontSize: 25,
-                    color: Colors.black,
-                    fontWeight: FontWeight.w700,
-                  ),
+          style: GoogleFonts.anekMalayalam(
+            fontSize: 25,
+            color: Colors.black,
+            fontWeight: FontWeight.w700,
+          ),
         ),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
@@ -98,11 +98,11 @@ class ChipTabBar extends StatelessWidget {
                     child: Image.asset(
                       writer.imagePath,
                       fit: BoxFit.cover,
-                      // errorBuilder: (context, error, stackTrace) {
-                      //   return const Center(
-                      //     child: Icon(Icons.error_outline, color: Colors.grey),
-                      //   );
-                      // },
+                      errorBuilder: (context, error, stackTrace) {
+                        return const Center(
+                          child: Icon(Icons.error_outline, color: Colors.grey),
+                        );
+                      },
                     ),
                   ),
                 ),
@@ -122,6 +122,7 @@ class ChipTabBar extends StatelessWidget {
                     fontSize: 20,
                     color: Colors.black,
                     fontWeight: FontWeight.w500,
+                   
                   ),
                 ),
                 const SizedBox(height: 24),
@@ -188,10 +189,10 @@ class ChipTabBar extends StatelessWidget {
           child: Text(
             text,
             style: GoogleFonts.anekMalayalam(
-            fontSize: 20,
-            color: Colors.black,
-            fontWeight: FontWeight.w500,
-          ),
+              fontSize: 20,
+              color: Colors.black,
+              fontWeight: FontWeight.w500,
+            ),
           ),
         ),
         const SizedBox(height: 16),

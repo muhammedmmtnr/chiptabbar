@@ -97,5 +97,13 @@ class WriterProvider extends ChangeNotifier {
       retellings: ['നബി ചരിത്രം', 'ഖുര്‍ആന്‍ പഠനം'],
       family: 'ഭാര്യ: തങ്കയത്ത് ഇത്തീരുമ്മ മക്കള്‍: മന്‍സൂര്‍, ഹിശാം, നബീല്‍, സുറയ്യ, സല്‍വ\nവിലാസം: സുറയ്യ മന്‍സില്‍, പി.ഒ എടയൂര്‍, വളാഞ്ചേരി, മലപ്പുറം, പിന്‍: 676554'
     ),
+    Writer(
+      
+      name: 'English Translation ',
+      bio: 'English Translation Ever since its completion in 1972, Tafheemul quran has been translated into many international languages. In the English language, translation of Tafhim was undertaken twice. It was first translated by Late Chaudhry Muhammad Akbar of Sialkot in whose house Maulana Maududi used to stay whenever he visited Dr. Iqbals home town. His translation was in 5 volumes, last of which was rendered into English by his associate Abdul Aziz Kamal. Chaudhry Muhammad Akbars translation ends at chapter Al-Hajj but was edited and made ready for publication by Mr. A.A Kamal M.A. Despite their pioneering efforts it was felt that their translations were not up to the desired standards. Hence it was decided with the concurrence of Maulana himself to ask Dr. Zafar Ishaq Ansari to undertake a new translation which he had finished up to chapter Al-Nur (as published by MMI, New Delhi). However Dr. Ansari has not only completed the translation of the whole of the Arabic text up to the end but has also revised his own translation done up to the chapter Al-Nur making necessary corrections, amendments and improvements as stated by him in his preface to the one-volume abridged edition. He also translated The Introduction of the Tafseer written by Syed Abul Aala Maududi in Urdu into English. While the translation of the Quranic text is entirely Dr Ansaris effort,(in Towards Understanding the Quran), He has been ably assisted in the explanatory notes by Dr A R Kidwai of the Islamic Foundation.',
+      imagePath: 'assets/images/thafeeul quran.jpg',
+      
+      // family: 'ഭാര്യ: തങ്കയത്ത് ഇത്തീരുമ്മ മക്കള്‍: മന്‍സൂര്‍, ഹിശാം, നബീല്‍, സുറയ്യ, സല്‍വ\nവിലാസം: സുറയ്യ മന്‍സില്‍, പി.ഒ എടയൂര്‍, വളാഞ്ചേരി, മലപ്പുറം, പിന്‍: 676554'
+    ),
   ];
 }
