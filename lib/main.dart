@@ -1,14 +1,21 @@
-import 'package:chiptabbar/chiptabbar.dart';
-import 'package:chiptabbar/provider.dart';
+
+import 'package:chiptabbar/guide_us.dart';
+import 'package:chiptabbar/Translatorsprovider.dart';
+import 'package:chiptabbar/guideprovider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 void main() {
   runApp(
-    ChangeNotifierProvider(
-      create: (context) => WriterProvider(),
-      child: const MyApp(),
+    MultiProvider(providers: [
+       ChangeNotifierProvider( create: (context) => WriterProvider(),),
+       ChangeNotifierProvider(create: (context) => GuideProvider(),
+      
     ),
+
+    ],
+    child: const MyApp(),)
+    
   );
 }
 class MyApp extends StatelessWidget {
@@ -25,7 +32,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home:  ChipTabBar(),
+      home:  GuideScreen(),
     );
   }
 }

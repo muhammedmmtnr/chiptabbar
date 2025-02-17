@@ -36,6 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   provider: ^6.1.2
   google_fonts: ^6.2.1
+  dots_indicator: ^4.0.0
+  shared_preferences: ^2.0.15
+  video_player: ^2.8.1
 
 dev_dependencies:
   flutter_test:
@@ -65,3 +68,8 @@ flutter:
     - assets/images/tka.png
     - assets/images/vk.png
     - assets/images/thafeeul quran.jpg
+    - assets/videos/
+    - assets/images/
+    
+
+
